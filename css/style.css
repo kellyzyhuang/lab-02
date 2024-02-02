@@ -24,8 +24,22 @@ img {
 .page-main {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+li {
+  display: inline; 
+  margin: 0 10px; 
+}
+
+.header-inner-container {
+  display: flex; 
+}
+
+.header-logo, .header-navbar {
+  flex: 1; 
+}
 .description-heading {
   font-weight: 400;
+  text-align: center; 
 }
 
 .character-style {
@@ -36,7 +50,7 @@ img {
   padding: 2rem;
 }
 
-.services-heading {
+.heading {
   text-align: center;
   line-height: .5;
 }

@@ -15,7 +15,7 @@
 
 .services-heading{
   text-align: center;
-  line-height: .688rem;
+  line-height: .5;
 }
 
 .section-heading{
@@ -31,10 +31,10 @@
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
+  align-items: center;
   text-align: center;
   padding: auto;
-  width: 15%;
-
+  width: 17%;
 }
 
 .section-title{
@@ -44,4 +44,8 @@
 .section-description{
   font-size: 0.688rem;
   color: #71797E;
+}
+
+.news-inner-container{
+  text-align: center;
 }

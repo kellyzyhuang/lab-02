@@ -141,4 +141,7 @@ img {
     grid-column-start: 1; 
     grid-column-end: -1; 
   }
+  .l-hide {
+    display: none; 
+  }
 }

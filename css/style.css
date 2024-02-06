@@ -2,6 +2,7 @@ div, main, section, footer, header {
   outline: 1px solid #ccc; 
   min-height: 1rem; 
   padding: 1rem; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 *, *:before, *:after {

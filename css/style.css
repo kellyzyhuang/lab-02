@@ -1,4 +1,4 @@
-div, main, section, footer, header {
+div, section, footer {
   outline: 1px solid #ccc; 
   min-height: 1rem; 
   padding: 1rem; 
@@ -33,6 +33,19 @@ li {
 
 .header-inner-container {
   display: flex; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.header-navbar {
+  padding: 0; 
+  margin: 0; 
+}
+
+.header-list {
+  margin: 0; 
+  padding: 0; 
+  transform: translate(-10rem); 
 }
 
 .header-logo, .header-navbar {
@@ -45,13 +58,17 @@ li {
 
 .metrolics-wordmark {
   position: absolute; 
+  font-size: 2rem; 
+  transform: translate(6rem, -0.2rem); 
 }
 
 .metrolics-logo {
-  height: 1rem; 
-  width: 1rem;
+  height: 2rem; 
+  width: 2rem;
   margin-left: 5rem;  
   margin-top: 1rem; 
+  position: absolute; 
+  transform: translate(10rem, 1rem); 
 }
 
 a {
@@ -81,44 +98,90 @@ a {
   display: flex; 
 }
 
+.home-icon {
+  width: 1.75rem; 
+  height: 1.75rem; 
+  transform: translate(0.5rem, -0.2rem); 
+}
+
+.pages-icon {
+  width: 1.75rem; 
+  height: 1.75rem; 
+  transform: translate(0.5rem, -0.2rem); 
+}
+
+.blog-icon {
+  width: 1.75rem; 
+  height: 1.75rem; 
+  transform: translate(0.5rem, -0.2rem); 
+}
+
+.portfolio-icon {
+  width: 1.75rem; 
+  height: 1.75rem; 
+  transform: translate(0.7rem, -0.2rem); 
+}
+
+.email-icon {
+  width: 1.75rem; 
+  height: 1.75rem; 
+  transform: translate(0.5rem, -0.2rem); 
+}
+
 .home-navbar{
   background-color: #50C878;
   padding: 2rem;
   padding-bottom: 1rem; 
   margin: -2.5px;
-}
-
-.home-icon {
-  width: 1.25rem; 
-  height: 1.25rem; 
-  background-color: rgba(255, 255, 255, 0.25); 
-  border-radius: 50%; 
-  position: relative; 
-  transform: translate(0.5rem, -0.2rem); 
+  max-width: 7rem;
+  max-height: 6rem; 
 }
 
 .pages-navbar{
   background-color: #FFBF00;
   padding: 2rem;
   margin: -2.5px;
+  max-width: 7rem;
+  max-height: 6rem;
 }
 
 .blog-navbar{
   background-color: #FA5F55;
   padding: 2rem;
   margin: -2.5px;
+  max-width: 7rem;
+  max-height: 6rem;
 }
 
 .portfolio-navbar{
   background-color: #7FB3D5;
   padding: 2rem 1.3rem 2rem;
   margin: -2.5px;
+  max-width: 7rem; 
+  max-height: 6rem;
 }
 
 .email-navbar{
   background-color: #1F618D;
   padding: 2rem;
   margin: -2.5px;
+  max-width: 7rem; 
+  max-height: 6rem;
+}
+
+.carousel {
+  margin: 0; 
+  padding: 0; 
+}
+
+.carousel-inner-container {
+  margin: 0; 
+  padding: 0; 
+}
+
+.carousel-image-container {
+  margin: 0; 
+  padding: 0; 
 }
 
 .carousel-image {
@@ -177,7 +240,7 @@ a {
   width: 2.5rem; 
   height: 2.5rem; 
   position: absolute; 
-  transform: translate(60rem, 15rem); 
+  transform: translate(66rem, 15rem); 
 }
 
 .section-heading {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.16 41.89">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.78 79.78">
   <defs>
     <style>
       .cls-1 {
@@ -11,18 +11,28 @@
       }
 
       .cls-2 {
-        fill: #fff;
+        fill: #75c7a5;
+      }
+
+      .cls-2, .cls-3 {
         stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #fff;
       }
     </style>
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
-    <g id="Home_Icon" data-name="Home Icon">
-      <g>
-        <polyline class="cls-1" points="3 23.6 26.69 4.29 51.16 23.6"/>
-        <line class="cls-1" x1="41.89" y1="3" x2="41.89" y2="16.28"/>
+    <g id="home-icon">
+      <circle class="cls-2" cx="39.89" cy="39.89" r="39.89"/>
+      <g id="home-icon-2" data-name="home-icon">
+        <g>
+          <polyline class="cls-1" points="15.81 39.81 39.5 20.49 63.97 39.81"/>
+          <line class="cls-1" x1="54.7" y1="19.21" x2="54.7" y2="32.49"/>
+        </g>
+        <polygon class="cls-3" points="21.88 43.69 40.24 28.87 57.89 43.69 57.89 58.1 47.17 58.1 47.17 45.61 32.76 45.61 32.76 58.1 21.88 58.1 21.88 43.69"/>
       </g>
-      <polygon class="cls-2" points="9.08 27.48 27.43 12.66 45.09 27.48 45.09 41.89 34.37 41.89 34.37 29.4 19.95 29.4 19.95 41.89 9.08 41.89 9.08 27.48"/>
     </g>
   </g>
 </svg>

@@ -154,7 +154,7 @@ a {
 }
 
 .portfolio-navbar{
-  background-color: #7FB3D5;
+  background-color: #3A9BDC;
   padding: 2rem 1.3rem 2rem;
   margin: -2.5px;
   max-width: 7rem; 
@@ -284,6 +284,76 @@ a {
   display: block;
   border-bottom: 2px solid skyblue;
   width: 30%;
+}
+
+.misc-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-menu{
+  text-align: left;
+  padding-left: 1rem;
+  background-color: #29C5F6;
+  color: white;
+  border: none;
+  height: 10%;
+}
+
+.accordion-menu::after{
+  content: '\002B';
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  background-color: #42d0fc;
+  float: right;
+  padding: 0.8rem;
+  width: 3rem;
+  margin-bottom: -2rem;
+  transform: translate(0.45rem, -3.23rem);
+}
+
+.menu-panel{
+  background-color: #F8F8F8;
+  border: none;
+  padding: 1rem;
+  color: #888888;
+  font-size: 12px;
+}
+
+.content-icon{
+  width: 5rem;
+  height: 5rem;
+}
+
+.menu-panel-title{
+  font-size: 14px;
+  font-weight: 400;
+  color: #585858;
+}
+
+.menu-inactive{
+  border: 1px solid #B0B0B0;
+  background-color: white;
+  text-align: left;
+  margin: 0.5rem;
+  margin-left: 0;
+  padding: 1rem;
+  height: 10%;
+  color: #787878;
+}
+
+.menu-inactive::after{
+  content: '\002B';
+  text-align: center;
+  font-size: 1rem;
+  border-left: 1px solid #B0B0B0;
+  color: #787878;
+  float: right;
+  width: 10%;
+  padding: 0.8rem;
+  margin-right: -1rem;
+  margin-top: -1rem;
 }
 /* small screen only */
 @media screen and (max-width: 39.9375em) {

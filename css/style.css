@@ -211,6 +211,17 @@ a {
   text-align: center;
 }
 
+.section-divider{
+  border-top: 1px solid lightgray;
+  width: 80%;
+}
+
+.section-divider:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid skyblue;
+  width: 30%;
+}
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
   .s-hide {

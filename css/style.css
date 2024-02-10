@@ -287,25 +287,29 @@ a {
 }
 
 .accordion-menu{
-  display: block;
-  text-align: start;
+  text-align: left;
+  padding-left: 1rem;
   background-color: #29C5F6;
   color: white;
   border: none;
-  width: inherit;
+  width: 32rem;
+  height: 15%;
 }
 
 .accordion-menu::after{
   content: '\002B';
+  text-align: center;
   font-size: 1.5rem;
   color: white;
   background-color: #42d0fc;
   float: right;
-  padding: 0.5rem;
-  margin: -2.2rem;
+  padding: 0.6rem;
+  width: 3rem;
+  transform: translate(0.45rem, -3.23rem);
 }
 .menu-panel{
   background-color: #F8F8F8;
+  border: none;
   padding: 1rem;
   color: #888888;
   font-size: 12px;

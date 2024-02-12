@@ -1,12 +1,15 @@
+/*
 div, section, footer {
   outline: 1px solid #ccc; 
   min-height: 1rem; 
   padding: 1rem; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+*/
 
 *, *:before, *:after {
   box-sizing: border-box; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 img {
@@ -355,6 +358,109 @@ a {
   margin-right: -1rem;
   margin-top: -1rem;
 }
+
+.footer {
+  background-color: rgb(19, 32, 57);
+  margin-top: 1rem;  
+}
+
+.footer-person-info {
+  display: flex; 
+  max-width: 80rem; 
+  transform: translate(11rem); 
+}
+
+.footer-person-description {
+  max-width: 65rem; 
+}
+
+.footer-person-name {
+  color: white;
+  padding-left: 2rem; 
+  padding-top: 2rem;  
+  font-size: 1rem; 
+}
+
+.footer-person-paragraph {
+  color: white; 
+  padding-left: 2rem; 
+  font-size: 0.9rem; 
+}
+
+.footer-person-image {
+  width: 14rem; 
+  height: 10rem; 
+}
+
+.footer-person-image-container {
+  width: 7rem; 
+  height: 7rem; 
+  overflow: hidden; 
+  border-radius: 50%; 
+  transform: translate(1rem, 2.5rem); 
+}
+
+.footer-person-line {
+  width: 70rem; 
+  border-color: rgb(74, 72, 83); 
+  margin-top: 3rem; 
+}
+
+.footer-person-line-secondary {
+  width: 8rem;
+  position: absolute; 
+  transform: translate(11.5rem, -1.1rem);  
+  border-color: rgb(48, 161, 187); 
+}
+
+.footer-box {
+  max-width: 15rem; 
+  max-height: 20rem; 
+  padding-bottom: 20rem; 
+}
+
+.footer-box-heading {
+  color: white; 
+}
+
+.footer-box-paragraph {
+  color: white; 
+  font-size: 0.75rem; 
+}
+
+.footer-box-line-left {
+  width: 17rem; 
+  border-color: #50C878;
+}
+
+.footer-box-line-left-middle {
+  width: 17rem; 
+  border-color: #FFBF00;
+}
+
+.footer-box-line-right-middle {
+  width: 17rem; 
+  border-color: #FA5F55;
+}
+
+.footer-box-line-right {
+  width: 17rem; 
+  border-color: #3A9BDC;
+}
+
+.footer-about-us-image {
+  width: 14rem; 
+}
+
+.footer-flikr-image {
+  width: 17rem; 
+}
+
+.footer-color-boxes {
+  max-width: 25rem; 
+  transform: translate(58rem); 
+}
+
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
   .s-hide {

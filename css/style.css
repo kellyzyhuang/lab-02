@@ -7,6 +7,10 @@ div, section, footer {
 }
 */
 
+section {
+  padding: 2rem; 
+}
+
 *, *:before, *:after {
   box-sizing: border-box; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -384,7 +388,8 @@ a {
 .footer-person-paragraph {
   color: white; 
   padding-left: 2rem; 
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
+  font-style: italic;  
 }
 
 .footer-person-image {
@@ -465,6 +470,40 @@ a {
 @media screen and (max-width: 39.9375em) {
   .s-hide {
     display: none; 
+  }
+  .description-heading {
+    padding-top: 6rem; 
+  }
+  .footer-person-info {
+    max-width: 30rem; 
+    transform: translate(4rem); 
+  }
+  .footer-person-image-container {
+    max-width: 10rem; 
+  }
+  .footer-person-description {
+    max-width: 15rem; 
+  }
+  .footer-person-line {
+    max-width: 20rem; 
+    transform: translate(4rem); 
+  }
+  .footer-person-line-secondary {
+    transform: translate(5rem, -1.1rem); 
+  }
+  .footer-about-us-image {
+    width: 20rem; 
+    transform: translate(6rem); 
+    padding-top: 2rem; 
+  }
+  .footer-box-heading, .footer-box-line-right-middle, .footer-twitter-image {
+    transform: translate(6rem, -13rem); 
+  }
+  .footer-twitter-image {
+    width: 20rem; 
+  }
+  .footer-color-boxes {
+    transform: translate(4rem, -4rem); 
   }
 }
 

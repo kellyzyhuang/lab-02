@@ -546,6 +546,27 @@ a {
   .m-hide {
     display: none; 
   }
+  .footer-box {
+    transform: translate(5rem); 
+  }
+  .footer-person-info {
+    transform: translate(3rem); 
+  }
+  .footer-person-image-container {
+    width: 7rem; 
+  }
+  .footer-person-description {
+    width: 40rem; 
+  }
+  .footer-color-boxes {
+    transform: translate(25rem); 
+  }
+  .header-list {
+    transform: translate(-5rem); 
+  }
+  .carousel-right-button {
+    transform: translate(49rem, 14.7rem); 
+  }
 }
 
 /* large screen and up */

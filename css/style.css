@@ -566,6 +566,10 @@ a {
   .m-1-2 {
     grid-template-columns: 1fr 2fr; 
   }
+  .section-logo-image{
+    width: 20%;
+    length: 20%;
+  }
 }
 
 /* medium screen only */

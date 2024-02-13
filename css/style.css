@@ -518,6 +518,24 @@ a {
   .footer-color-boxes {
     transform: translate(4rem, -4rem); 
   }
+  .services-box{
+    display: flex;
+    flex-direction: row;
+  }
+  .section-title{
+    font-size: 0.7rem;
+    margin-bottom: -0.2rem;
+  }
+  .section-description{
+    font-size: 0.5rem;
+    text-align: left;
+  }
+
+  .service-text{
+    text-align: left;
+    line-height: 0.8rem;
+    margin-left: 1.3rem;
+  }
 }
 
 /* medium screen and up */

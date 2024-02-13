@@ -1,12 +1,3 @@
-/*
-div, section, footer {
-  outline: 1px solid #ccc; 
-  min-height: 1rem; 
-  padding: 1rem; 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-*/
-
 body {
   margin: -0.1rem; 
   padding: 0; 
@@ -52,6 +43,12 @@ li {
 .header-navbar {
   padding: 0; 
   margin: 0; 
+}
+
+.header-menu-icon {
+  max-width: 3rem;
+  position: absolute; 
+  transform: translate(-8rem, 1.5rem); 
 }
 
 .header-list {
@@ -452,6 +449,7 @@ a {
 .footer-box-paragraph {
   color: white; 
   font-size: 0.75rem; 
+  line-height: 1.5rem; 
 }
 
 .footer-box-line-left {
@@ -487,6 +485,26 @@ a {
   transform: translate(58rem); 
 }
 
+.footer-twitter-image {
+  max-width: 2rem; 
+}
+
+.footer-box-tweet-container {
+  display: flex; 
+  flex-wrap: wrap;
+  padding-top: 0.25rem;  
+}
+
+.footer-box-tweet {
+  font-size: 0.75rem; 
+  transform: translate(2.5rem, -2.5rem); 
+  color: white; 
+}
+
+.footer-box-tweet-link {
+  color: #3A9BDC; 
+}
+
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
   .s-hide {
@@ -520,9 +538,7 @@ a {
   .footer-box-heading, .footer-box-line-right-middle, .footer-twitter-image {
     transform: translate(6rem, -13rem); 
   }
-  .footer-twitter-image {
-    width: 20rem; 
-  }
+  
   .footer-color-boxes {
     transform: translate(4rem, -4rem); 
   }
@@ -538,11 +554,13 @@ a {
     font-size: 0.5rem;
     text-align: left;
   }
-
   .service-text{
     text-align: left;
     line-height: 0.8rem;
     margin-left: 1.3rem;
+  }
+  .footer-box-tweet {
+    transform: translate(9rem, -15.5rem); 
   }
 }
 
